@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "package": "com.accurateprojectiles.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "WindChargeItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

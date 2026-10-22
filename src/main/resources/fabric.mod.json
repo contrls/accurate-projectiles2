@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "accurate_projectiles",
+  "version": "${version}",
+  "name": "Accurate Projectiles",
+  "description": "Removes the random spread from ender pearls and wind charges so they fly exactly along your look direction. Works on a dedicated server (server-side install) and in singleplayer.",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.accurateprojectiles.AccurateProjectilesMod"
+    ]
+  },
+  "mixins": [
+    "accurate-projectiles.mixins.json",
+    "accurate-projectiles.dispensers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  },
+  "recommends": {
+    "fabric-api": "*"
+  }
+}
